@@ -1,0 +1,15 @@
+<div class="ui items">
+    <div class="item" *ngFor="let itli of itemlist">
+      <div class="image">
+        <img [src]="itli.img">
+      </div>
+      <div class="content">
+        <a class="header">{{itli.header}}</a>
+        <div class="meta">
+          <span>Description</span>
+        </div>
+        <div class="description">
+          <p>{{itli.content}}</p>
+        </div>
+      </div>
+    </div>
